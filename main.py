@@ -18,16 +18,6 @@ async def on_message(message):
     if message.content.lower().startswith('!balance'):
         await client.send_message(message.channel, 'You don\'t have that much money!')
 
-
-
-
-
-
-
-
-
-
-
-
-
-client.run("NDY4MjY3NzMzODQzMzEyNjgx.Di2sBg.Ua1XTKWYYiELg0GCyyAZZaWf4OY")
+        
+        
+client.login(process.env.NDY4MjY3NzMzODQzMzEyNjgx.Di2sBg.Ua1XTKWYYiELg0GCyyAZZaWf4OY)  
